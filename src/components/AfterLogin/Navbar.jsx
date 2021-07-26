@@ -1,16 +1,22 @@
 import React, { useState } from 'react'
 import { IconButton } from "@chakra-ui/react"
+import { useHistory } from 'react-router'
 import { DragHandleIcon,} from "@chakra-ui/icons"
 import { Menu, MenuButton, MenuList, MenuItem,Box } from "@chakra-ui/react"
 import { ChakraProvider, Flex, theme, Avatar, FormControl, FormLabel, Input } from '@chakra-ui/react';
 
 function Navbar(){
+    const history = useHistory()
     const [image,setimage] = useState(null)
     const handleChange = (e) =>{
         console.log(e)
         setimage(URL.createObjectURL(e.target.files[0]))
     }
     console.log(image)
+    const SignOut = () =>{
+        history.push("/") 
+        localStorage.clear();
+    }
         return (
             
                 <ChakraProvider theme={theme}>
@@ -42,7 +48,7 @@ function Navbar(){
                                 <MenuItem>Profile</MenuItem>
                                 <MenuItem>Profile Settings</MenuItem>
                                 <MenuItem>Virtual Chat</MenuItem>
-                                <MenuItem>SignOut</MenuItem>
+                                <MenuItem onClick={SignOut}>SignOut</MenuItem>
                             </MenuList>
                     </Menu>
                     </Flex>

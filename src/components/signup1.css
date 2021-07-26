@@ -88,6 +88,7 @@ table tr td textarea
     outline: none;  
     /* margin-top: 15px; */
     margin-left: -100%;
+    background-color: white;
 }
 .signup1container button
 {
@@ -122,6 +123,7 @@ table tr td textarea
     border-radius: 5px;
     border: 1px solid #cc2b5e;
     outline: none;
+    background-color: white;
 
 }
 .country-code{
