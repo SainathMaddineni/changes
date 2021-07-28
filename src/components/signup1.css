@@ -2,7 +2,7 @@
 {
 background: linear-gradient( #cc2b5e,#753a88); 
 padding: 20px;
-width: 100%;
+width: auto;
 overflow: hidden;
 }
 .signupin{
@@ -117,8 +117,8 @@ table tr td textarea
 }
 .signuppn
 {
-    padding: 4px;
-    height: 30px;
+    padding: 10px 0px;
+    height: 35px;
     width: 100%;
     border-radius: 5px;
     border: 1px solid #cc2b5e;
@@ -138,7 +138,7 @@ table tr td textarea
  }
 .phoneinput
 {
-    width: 69%;
+    width: 68.5%;
 }
 .handlingerror
 {
@@ -154,4 +154,9 @@ table tr td textarea
     margin: 0px 5%;
     align-items: center;
     position: relative;
+}
+.passwordtitle
+{
+    margin-left: 60%;
+    font-size: 70%;
 }

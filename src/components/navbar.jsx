@@ -10,7 +10,7 @@ class NavBar extends Component {
                     <header id ="header">
                         <div className ="container" id = "containernav">
                             <div id="branding">
-                                <h1  id = "navlink" style={{ color: 'yellow' }}><a href="/" className="nav-com">Slope Rate Techno Private Limited </a></h1>
+                                <h1  id = "navlink" style={{ color: 'yellow' }}><a href="/">Slope Rate Techno Private Limited </a></h1>
                             </div>
                         <nav>
                             <ul>

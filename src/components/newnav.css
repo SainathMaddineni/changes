@@ -40,6 +40,9 @@ header {
     width: 50%;
     height: 100%;
     float: right;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: space-between; */
 }
 .menu ul {
     width: 100%;
@@ -120,7 +123,7 @@ header {
         /* line-height: 60px;  */
     }
     #menuToggle:checked ~ ul {
-        max-height: 350px;
+        max-height: 470px;
         /*Para fazer com que o menu saia da esquerda ou direita, você deve trocar max-height por max-width*/
     }
     .menu-icon i {

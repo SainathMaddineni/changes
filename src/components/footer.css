@@ -1,17 +1,18 @@
 .footer-main{
-  width: 100%;
+  width: 96%;
   color: #FDFCFB;
   float: left;
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: space-between; */
   background-color: #464066;
-  margin-top: -10px;
+  margin-top: -15px;
+  padding: 2%;
 }
 .footer-col{
   width: 25%;
   float: left;
-  padding: 20px;
+  /* padding: 0px 10px; */
   /* background-color: black; */
   /* height: 500px; */
   color: #FDFCFB;
@@ -22,23 +23,22 @@
   .footer-subscribe{
     width: 100%;
     background-color: #737373;
-    color: #d9d9d9;
-     padding: 20px 0px ; 
+    color: #D9D9D9;
+    padding: 20px 0px;
     float: left;
   }
   .footer-subscribe1{
     width: 60%;
     float: left;
     padding-left: 1.5%;
-    
   }
   .footer-subscribe2{
     width: 30%;
     float: left;
-    padding-top: 10px;;
+    padding-top: 10px;
   }
   .sub-email[type="email"] {
-    width: 60%;
+    width: 50%;
     background: #FDFCFB;
     font-family: 'Times New Roman', Times, serif;
     color: #737373;
@@ -53,11 +53,9 @@
     font-size: medium;
     /* margin-bottom: 30px; */
   }
-  
-  
   .email-subscribe{
     width: 30%;
-    background: #ff8c00;
+    background: #FF8C00;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: medium;
@@ -71,14 +69,13 @@
     text-align: center;
     overflow: hidden;
     white-space: nowrap;
-    
   }
     .follow-list{
       float: left;
       display: flex;
       padding-left: 10px;
       font-size: 20px;
-      /* color: #ff8c00; */
+      /* color: #FF8C00; */
     }
     .follow-list a{
       font-weight: bold;
@@ -94,25 +91,22 @@
       color:#000080;
     }
     .follow-twi{
-      color: #0099ff;
+      color: #0099FF;
     }
     .follow-list a :hover{
       color: whitesmoke;
     }
-  
   .email-subscribe:hover {
     background: #000000;
     color:#ff8c00;
   }
   .email-subscribe:focus{outline: none;}
-    
   .sub-email:focus {
     outline: none;
   }
-  
  .footer-copy{
   width: 100%;
-  background-color: #ff8c00;
+  background-color: #FF8C00;
   text-align: center;
   margin: 0%!important;
   /* padding: 100px; */
@@ -124,18 +118,18 @@
 @media only screen and (max-width: 768px) {
   .footer-main .footer-col {
      width: 50%;
-     /* margin-left: 10% */
+     /* margin-left: 10%; */
    }
  }
 @media only screen and (max-width: 500px) {
   .footer-main .footer-col {
      width: 100%;
-     /* margin-left: 20% */
+     /* margin-left: 20%; */
    }
  }
 @media only screen and (max-width: 340px) {
  .footer-main .footer-col {
     width: 100%;
-    /* margin-left: 20% */
+    /* margin-left: 20%; */
   }
 }
