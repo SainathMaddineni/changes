@@ -5,11 +5,13 @@ function IdleTimerContainer(){
      const idelTimerRef= useRef(null)
 
      const onIdle = () =>{
-         localStorage.clear();
+        console.log('iam idle');
+        localStorage.removeItem('login');
+        window.location.reload();
      }
     return(
         <div>
-            <IdleTimer ref ={idelTimerRef} timeout = {5 * 1000} onIdle = {onIdle}></IdleTimer>
+            <IdleTimer ref ={idelTimerRef} timeout = {600 * 1000} onIdle = {onIdle}></IdleTimer>
         </div>
 
     )
