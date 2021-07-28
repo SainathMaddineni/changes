@@ -10,7 +10,7 @@ class Nav extends Component {
         return ( 
             <div className="navbar">
                 <header>
-                   <figure className="brand">Slope Rate Techno Private Limited</figure>
+                   <figure className="brand"> <a href="/"  className="nav-com">Slope Rate Techno Private Limited</a> </figure>
                <nav className="menu">
             <input type="checkbox" id="menuToggle"/>
             <label htmlFor="menuToggle" className="menu-icon"><i><FiAlignJustify/></i></label>
@@ -21,6 +21,7 @@ class Nav extends Component {
                 <a href="/contactus"><li>CONTACTUS</li></a>
                 <a href="/login"><li>LOGIN</li></a>
                 <a href="/signup"><li>SIGNUP</li></a>
+                <a href="/jobs"><li>JOBS</li></a>
             </ul>
         </nav>
      </header>

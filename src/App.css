@@ -139,6 +139,14 @@ header :link{ */
     background-color:#e8491d;
     text-align: center;
   }
+  .nav-com{
+    color: yellow;
+    /* padding-bottom: 30px; */
+  }
+  .nav-com:hover{
+    text-decoration: none;
+    color: yellow;
+  }
   
   .footercss{
     position:relative;
@@ -567,7 +575,7 @@ header :link{ */
     height:30vh;
     position:absolute;
     background-color:black;
-    top:27.5vh;
+    top:86.5vh;
     font-size:30px;
     font-weight: bolder;
     font-family: Georgia, 'Times New Roman', Times, serif;

@@ -211,7 +211,9 @@ class SignUp1 extends Component {
                             value={this.state.password}
                                 onChange = {(event) => this.setState({password : event.target.value})}
                             title="only numbers and length should be (9-25)" required /></div>
-                         </div><br></br>
+                         </div>
+                         <div className="passwordtitle"><p>Only Numbers 9-25 </p></div>
+                         {/* <br></br> */}
 
                          <div className="rsignup-row">
                            <div><label className="lablestyle">Confirm Password </label></div>
@@ -233,7 +235,8 @@ class SignUp1 extends Component {
                            <div><label className="lablestyle">Phone Number  </label></div>
 
                            <div>
-                               <div className="country-code"><select name="phonenumber"  className="signuppn" >
+                               <div className="country-code">
+                                   <select name="phonenumber"  className="signuppn" >
                                <option defaultValue="+91">+91</option>
                                <option value="+1">+1</option>
                                <option value="+61">+61</option>
@@ -246,9 +249,11 @@ class SignUp1 extends Component {
                               pattern="^[0-9]{10}$"
                              title="Enter valid Mobile number" required/></div></div>
                         </div>
+                        
                         <div className="rsignup-row"></div>
                              <div className="handlingerror">{this.state.phoneError}</div>
                          </div>
+
                         <div >
                         <button type="submit" >Submit</button>
                         <p className="signuppara">Already have a account ? <a href="/login">Login</a></p>

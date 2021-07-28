@@ -33,7 +33,7 @@ class Footer extends Component {
                    For Business & Sales<br/>
                    admin@sloperateinc.com<br/>
                 </p>
-                <h4>Follow us:</h4>
+                <h4  style={{color:"#ff8c00"}}>Follow us:</h4>
                 <ul style={{listStyleType:"none"}}>
                   <li className="follow-list"><a href="https://www.facebook.com/SlopeRateInc
 " className="follow-fb"><FaFacebook /></a></li>

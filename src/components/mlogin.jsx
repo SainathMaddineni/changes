@@ -4,11 +4,8 @@ import './mlogin.css';
 import Nav from './newnav';
 // import Navbar from './AfterLogin/Navbar';
 import LoginIntro from './AfterLogin/LoginIntro';
-
 const UsernameRE = new RegExp(/^[\w-+]+(\.[\w]+)*@[\w-]+(\.[\w]+)*(\.[a-z]{2,})$/);
 // const PasswordRE = new RegExp(/^[0-9]{9,25}$/);
-
-
 class Mlogin extends Component {
     state = { 
         emailAddress : "",
@@ -42,12 +39,9 @@ class Mlogin extends Component {
             this.setState({flag:option1})
         }
      }
-
      forgetfunction =() =>{
         this.props.history.push("/forgetpassword");
-
     }
-   
     handleSubmit = (event) =>{
         event.preventDefault();
         // const isValid = this.validate();
@@ -78,7 +72,6 @@ class Mlogin extends Component {
                 }).then(data => {
                           console.log(data)
                           if(data[0] === 200){
-
                           if(data[1].registerResponse === "Login Successfully"){
                             // window.location.reload(false);
                             localStorage.setItem('login',JSON.stringify({
@@ -86,8 +79,7 @@ class Mlogin extends Component {
                                 text:data[1].registerResponse
                             }))
                               alert('Login Successfully')
-                            //   this.props.history.push("/LoginIntro");
-                                window.location.reload();
+                              this.props.history.push("/LoginIntro");
                           }
                           else if(data[1].registerResponse === null){
                               alert('Invalid Username')
@@ -118,17 +110,11 @@ class Mlogin extends Component {
                 !this.state.login? 
                 <div>
                     <Nav/>
-        <div style={{
-                backgroundImage: "url(/images/bg-01.jpg)",
-                height: "100vh",
-                backgroundRepeat: "no-repeat"
-              }}
-          
-        className="login-Container">
+        <div className="login-Container">
                 <div className="center">  
-                <h1>Login</h1><br/> 
             <form 
                  onSubmit = {(event)=> this.handleSubmit(event)}>
+                      <h1>Login</h1>
         <div className="txt_field">
             <input type="text" 
             value={this.state.emailAddress} 
@@ -171,5 +157,4 @@ class Mlogin extends Component {
          );
     }
 }
- 
 export default Mlogin;

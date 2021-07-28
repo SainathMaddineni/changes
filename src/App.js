@@ -15,6 +15,7 @@ import Service from './components/service';
 import IdleTimerContainer from './components/idleTimerContainer';
 import CarrerControl from './components/carrercontrol';
 import LoginIntro from './components/AfterLogin/LoginIntro';
+import JOBS from './components/jobspage';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <Route path="/service"  exact strict  component = {Service}/>
       <Route path="/carrercontrol"  exact strict  component = {CarrerControl}/>
       <Route path="/LoginIntro"  exact strict  component = {LoginIntro}/>
+      <Route path="/jobs"  exact strict  component = {JOBS}/>
       </Switch>
       </Router>
       <Footer/>
