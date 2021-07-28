@@ -230,4 +230,4 @@ height: 100%;
 .fling-minislide img:nth-child(4){animation-delay:0s;}
 .fling-minislide img:nth-child(3){animation-delay:5s;}
 .fling-minislide img:nth-child(2){animation-delay:10s;}
-.fling-minislide img:nth-child(1){animation-delay:15s;}
+/* .fling-minislide img:nth-child(1){animation-delay:15s;} */

@@ -57,25 +57,25 @@ class Home1 extends Component {
                        <div className="fling-minislide">
 
                         <img src="/images/homelogo1.jpg" alt="Slide 4" />
-                        <img src="/images/homelogo2.jpg" alt="Slide 3" />
-                        <img src="/images/homelogo1.jpg" alt="Slide 2" />
-                        <img src="/images/homelogo6.jpg" alt="Slide 1" />
+                        <img src="/images/homelogo3.jpg" alt="Slide 3" />
+                        <img src="/images/homelogo6.jpg" alt="Slide 2" />
+                        <img src="/images/homelogo1.jpg" alt="Slide 1" /> 
 
                       </div>
                       <div className="fling-minislide">
 
                         <img src="/images/homelogo3.jpg" alt="Slide 4" />
-                        <img src="/images/homelogo2.jpg" alt="Slide 3" />
-                        <img src="/images/homelogo6.jpg" alt="Slide 2" />
-                        <img src="/images/homelogo3.jpg" alt="Slide 1" />
+                        <img src="/images/homelogo6.jpg" alt="Slide 3" />
+                        <img src="/images/homelogo1.jpg" alt="Slide 2" />
+                        <img src="/images/homelogo3.jpg" alt="Slide 1" /> 
 
                       </div>
                       <div className="fling-minislide">
 
                         <img src="/images/homelogo6.jpg" alt="Slide 4" />
                         <img src="/images/homelogo1.jpg" alt="Slide 3" />
-                        <img src="/images/homelogo2.jpg" alt="Slide 2" />
-                        <img src="/images/homelogo7.jpg" alt="Slide 1" />
+                        <img src="/images/homelogo3.jpg" alt="Slide 2" />
+                        <img src="/images/homelogo6.jpg" alt="Slide 1" /> 
 
                       </div>
                       

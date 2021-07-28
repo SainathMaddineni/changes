@@ -68,10 +68,10 @@ class NewServices extends Component {
                     </div>
                     <div className = "colum">
                         <div className = "content-box1">
-                            <h1> improves the consumer experience and service standards, and all increase revenues.</h1>
+                            <h1> Improves the consumer experience and service standards, and all increase revenues.</h1>
                             <div><h5> It has opened up new avenues for every organization to reach and connect with their target customers</h5></div>
                             <div><h5>Android devices are the most popular and used by more than half of the populace in the world</h5></div>
-                            <div><h5> regular and frequent upgrades in OS and UI, flexibility</h5></div>
+                            <div><h5> Regular and frequent upgrades in OS and UI, flexibility</h5></div>
                             <img src = "\images\serv-sec.jpg"  alt = "img not found"/>
                         </div>
                     </div>
@@ -79,19 +79,25 @@ class NewServices extends Component {
                         <h1>OUR CLIENTS</h1>
                         <div className = "clint-container2">
                             <div className = "clients">
+                            <a href="http://www.coderepoz.com/index.html#home">
                                 <img src = "/images/homelogo1.jpg" alt = "img not found"/> 
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur numquam nesciunt nihil voluptate fuga necessitatibus. Voluptatibus placeat ad architecto impedit exercitationem veniam soluta similique, culpa repellendus aspernatur maxime iure at corporis ea animi? Dicta deserunt suscipit vitae possimus quasi excepturi incidunt non? Quae iure eius omnis rerum voluptas magni.</p>
-                                <a href="/services" className="item2 swipeX">Exlore Me</a>
+                                </a>
+                                {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur numquam nesciunt nihil voluptate fuga necessitatibus. Voluptatibus placeat ad architecto impedit exercitationem veniam soluta similique, culpa repellendus aspernatur maxime iure at corporis ea animi? Dicta deserunt suscipit vitae possimus quasi excepturi incidunt non? Quae iure eius omnis rerum voluptas magni.</p> */}
+                                {/* <a href="/services" className="item2 swipeX">Exlore Me</a> */}
                             </div>
                             <div className = "clients">
+                            <a href="https://www.confluxsystems.com/">
                                 <img src = "/images/homelogo6.jpg" alt = "img not found"/>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur numquam nesciunt nihil voluptate fuga necessitatibus. Voluptatibus placeat ad architecto impedit exercitationem veniam soluta similique, culpa repellendus aspernatur maxime iure at corporis ea animi? Dicta deserunt suscipit vitae possimus quasi excepturi incidunt non? Quae iure eius omnis rerum voluptas magni.</p>
-                                <a href="/services" className="item2 swipeX">Exlore Me</a>
+                                </a>
+                                {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur numquam nesciunt nihil voluptate fuga necessitatibus. Voluptatibus placeat ad architecto impedit exercitationem veniam soluta similique, culpa repellendus aspernatur maxime iure at corporis ea animi? Dicta deserunt suscipit vitae possimus quasi excepturi incidunt non? Quae iure eius omnis rerum voluptas magni.</p> */}
+                                {/* <a href="/services" className="item2 swipeX">Exlore Me</a> */}
                             </div>
                             <div className = "clients">
+                                <a href="http://www.sridhaedu.com/landing.php?action=please_login">
                                 <img src = "/images/homelogo3.jpg" alt = "img not found"/>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, laboriosam ipsam? Delectus accusantium maxime est mollitia et pariatur beatae. Fuga nobis, quaerat hic ipsum praesentium animi tempora, aperiam recusandae consequuntur, in necessitatibus illum quos cupiditate fugiat. Ducimus, doloremque minus maxime laborum debitis amet eveniet, impedit, expedita veritatis magni atque placeat.</p>
-                                <a href="/services" className="item2 swipeX">Exlore Me</a>
+                                </a>
+                                {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, laboriosam ipsam? Delectus accusantium maxime est mollitia et pariatur beatae. Fuga nobis, quaerat hic ipsum praesentium animi tempora, aperiam recusandae consequuntur, in necessitatibus illum quos cupiditate fugiat. Ducimus, doloremque minus maxime laborum debitis amet eveniet, impedit, expedita veritatis magni atque placeat.</p> */}
+                                {/* <a href="/services" className="item2 swipeX">Exlore Me</a> */}
                             </div>
                         </div>
                     </div>
