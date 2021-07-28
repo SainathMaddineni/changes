@@ -86,7 +86,8 @@ class Mlogin extends Component {
                                 text:data[1].registerResponse
                             }))
                               alert('Login Successfully')
-                              this.props.history.push("/LoginIntro");
+                            //   this.props.history.push("/LoginIntro");
+                                window.location.reload();
                           }
                           else if(data[1].registerResponse === null){
                               alert('Invalid Username')

@@ -23,11 +23,11 @@
     width: 100%;
     background-color: #737373;
     color: #d9d9d9;
-    padding: 20px 10px ;
+     padding: 20px 0px ; 
     float: left;
   }
   .footer-subscribe1{
-    width: 70%;
+    width: 60%;
     float: left;
     padding-left: 1.5%;
     
@@ -121,21 +121,21 @@
   font-size: 15px;
   /* margin-bottom: -500px; */
 }
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 768px) {
   .footer-main .footer-col {
-     width: 30%;
-     margin-left: 10%
+     width: 50%;
+     /* margin-left: 10% */
    }
  }
 @media only screen and (max-width: 500px) {
   .footer-main .footer-col {
      width: 100%;
-     margin-left: 20%
+     /* margin-left: 20% */
    }
  }
 @media only screen and (max-width: 340px) {
  .footer-main .footer-col {
     width: 100%;
-    margin-left: 20%
+    /* margin-left: 20% */
   }
 }

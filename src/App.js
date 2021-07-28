@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Home1 from './components/home1';
-import Services from './components/services';
+import NewServices from './components/newServices';
 import AboutUs from './components/about us';
 import ContactUs from './components/contact us';
 import MLogIn from './components/mlogin';
@@ -19,11 +19,10 @@ import LoginIntro from './components/AfterLogin/LoginIntro';
 function App() {
   return (
     <div>
-      <IdleTimerContainer></IdleTimerContainer>
       <Router>
       <Switch>
       <Route path="/" exact strict component = {Home1}/>
-      <Route path="/services" exact strict  component = {Services}/>
+      <Route path="/services" exact strict  component = {NewServices}/> 
       <Route path="/aboutus"  exact strict component = {AboutUs}/>
       <Route path="/contactus" exact strict  component = {ContactUs}/>
       <Route path="/login"   exact strict component = {MLogIn}/>
@@ -32,10 +31,10 @@ function App() {
       <Route path="/service"  exact strict  component = {Service}/>
       <Route path="/carrercontrol"  exact strict  component = {CarrerControl}/>
       <Route path="/LoginIntro"  exact strict  component = {LoginIntro}/>
-
       </Switch>
       </Router>
       <Footer/>
+      <IdleTimerContainer></IdleTimerContainer>
     </div>
   );
 }
