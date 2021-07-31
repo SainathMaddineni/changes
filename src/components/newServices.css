@@ -337,3 +337,9 @@ margin-left:50%;
   text-align: center;
   padding:1% 1% 1% 1%;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1300px){
+  .main-Container{
+    height: 42vh;
+  }
+}

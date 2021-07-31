@@ -15,7 +15,7 @@ function LoginIntegration() {
             <br />
             <br />
             <br />    
-        <FormControl height="80vh">     
+        <FormControl height="77vh">     
             <FormLabel><strong>Quote Of The Project :</strong></FormLabel>
             <Select placeholder="Select" borderColor="black" {...register("project quote",{required:true})}>
                 <option>Web</option>

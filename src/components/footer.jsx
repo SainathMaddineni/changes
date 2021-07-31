@@ -67,7 +67,7 @@ class Footer extends Component {
     
 <div className = "footer-subscribe">
 <div className ="footer-subscribe1">
-  <h1> Subscribe to our new updates </h1>
+  <h1 style={{fontSize:"2em"}}> Subscribe to our new updates </h1>
 </div>
 <div className="footer-subscribe2">
   <form>
